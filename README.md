@@ -1,17 +1,35 @@
+# DATE : 13/03/2026
 # EXPT.NO.09-IMPLEMENTATION-OF-ERROR-DETECTION-USING-CRC-CCITT-16-BIT-TECHNIQUE
+## NAME: Rabin R 
+## REG NO: 212223060215
+
 # AIM:
+
 To write a program for error Detection using Cyclic Redundancy Check (CRC-16 bit) technique.
 
 # EQUIPMENTS REQUIRED:
+
 1.	Personal Computer
+ 
 2.	C++ compiler
 
 # ALGORITHM:
-1] Open code blocks application and create a new file. 2] After creating the file type the codes.
-3] After typing the codes save the file using the .c extension in the desired location. 4] Run the program using build and run.
-5] Give polynomial values and the generated polynomial is obtained, and by other means arraive	at the desired output which uses the error detection technique. 6] Thus the output polynomial is obtained through this technique.
+
+1] Open code blocks application and create a new file. 
+
+2] After creating the file type the codes.
+
+3] After typing the codes save the file using the .c extension in the desired location.
+
+4] Run the program using build and run.
+
+5] Give polynomial values and the generated polynomial is obtained, and by other means arraive	at the desired output which uses the error detection technique. 
+
+6] Thus the output polynomial is obtained through this technique.
 
 # PROGRAM:
+
+~~~
 #include<stdio.h> #include<string.h> #define Nstrlen(g) char t[128],cs[128],g[]="111";
 int a,e,c; voidxor()
 {
@@ -49,9 +67,14 @@ for(e=0;(e<N-1)&&(cs[e]!='1');e++) if(e<N-1)
 printf("Error detected"); else
 printf("no error detected");
 }
- 
+~~~
+
 # OUTPUT:
+
+![WhatsApp Image 2026-03-27 at 8 26 23 PM](https://github.com/user-attachments/assets/8b28d927-2c2c-43a4-8b7b-607dd7be6d09)
+
 
 
 # RESULT:
+
 Thus the error detection using CRC-CCITT[16 bit] technique is implemented and the output is obtained and verified successfully.
